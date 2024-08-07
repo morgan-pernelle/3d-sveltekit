@@ -24,15 +24,13 @@
 	{/if}
 </svelte:head>
 
-
-
 <Header settings={data.settings} />
 
 <main>
 	<slot />
 </main>
 <div class="background-gradient absolute inset-0 -z-50 max-h-screen" />
-<div class="pointer-events-none absolute inset-0 -z-40 h-full bg-[url('noisetexture.jpg')] opacity-20 mix-blend-soft-light"></div>
+<div class="pointer-events-none absolute inset-0 -z-40 h-full bg-[url('/noisetexture.jpg')] opacity-20 mix-blend-soft-light"></div>
 
 <Footer settings={data.settings} />
 
